@@ -7,10 +7,6 @@ import growth from './growth.webp'
 
 
 function Firstpanel() {
-    var windowHeight = window.innerHeight;
-    var windowWidth = window.innerWidth;
-    var scrollArea = 1000 - windowHeight;
-
 
     const Dots = document.getElementsByClassName('panelImage')[0];
     const Horn = document.getElementsByClassName('panelImage')[1];
@@ -18,7 +14,7 @@ function Firstpanel() {
     
     window.addEventListener('scroll', function() {
       Growth.style.top = window.scrollY*0.3 + 'px'
-      Horn.style.top = window.scrollY*0.3 - 'px'
+      Horn.style.top = window.scrollY*0.3 - 'px';
       Dots.style.top = window.scrollY*0.3 + 'px';
     });
 

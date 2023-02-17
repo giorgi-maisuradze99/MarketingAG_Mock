@@ -30,42 +30,42 @@ function Offers() {
                         <circle cx='50' cy='50' r='30'></circle>
                     </svg>
                     <h2>რეკლამა სოციალურ ქსელში</h2>
-                    <a>-></a>
+                    <a>→</a>
                 </div> 
                 <div className='offerItem'>
                     <svg>
                         <circle cx='50' cy='50' r='30'></circle>
                     </svg>
                     <h2>ვიზუალების შექმნა უმაღლეს დონეზე</h2>
-                    <a>-></a>
+                    <a>→</a>
                 </div>
                 <div className='offerItem'>
                     <svg>
                         <circle cx='50' cy='50' r='30'></circle>
                     </svg>
                     <h2>თქვეზე მორგებული ბრენდინგის შექმნა</h2>
-                    <a>-></a>
+                    <a>→</a>
                 </div> 
                 <div className='offerItem'>
                     <svg>
                         <circle cx='50' cy='50' r='30'></circle>
                     </svg>
                     <h2>სტუდიოს ხარისხის პროდუქტის ფოტოგრაფია</h2>
-                    <a>-></a>
+                    <a>→</a>
                 </div>
                 <div className='offerItem'>
                     <svg>
                         <circle cx='50' cy='50' r='30'></circle>
                     </svg>
                     <h2>UGC კამპანიების დაგეგმვა</h2>
-                    <a>-></a>
+                    <a>→</a>
                 </div>
                 <div className='offerItem'>
                     <svg>
                         <circle cx='50' cy='50' r='30'></circle>
                     </svg>
                     <h2>მიკრო-ინფლუენსერის დაქირავება პროდუქტის ვიდეოსთვის</h2>
-                    <a>-></a>
+                    <a>→</a>
                 </div>
         </div>
 

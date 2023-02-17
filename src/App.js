@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Firstpanel from './Components/Firstpanel';
 import Advantages from './Components/Advantages';

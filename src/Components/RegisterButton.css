@@ -1,0 +1,11 @@
+.registerButtonContainer{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: rgb(0, 105, 255);
+    z-index: 100;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
