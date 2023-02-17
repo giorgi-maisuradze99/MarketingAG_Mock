@@ -15,6 +15,9 @@
     height: 100px;
     
 }
+#messageinput::placeholder{
+    position: absolute;
+}
 #submitInput{
     width: 60vw;
 }

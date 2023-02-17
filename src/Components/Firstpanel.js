@@ -4,15 +4,27 @@ import dots from './Dots.webp'
 import sayviri from './sayviri.webp'
 import growth from './growth.webp'
 
+
+
 function Firstpanel() {
+    var windowHeight = window.innerHeight;
+    var windowWidth = window.innerWidth;
+    var scrollArea = 1000 - windowHeight;
+
+
+    const Dots = document.getElementsByClassName('panelImage')[0];
+    const Horn = document.getElementsByClassName('panelImage')[1];
+    const Growth = document.getElementsByClassName('panelImage')[2];
+    
+    window.addEventListener('scroll', function() {
+      Growth.style.top = window.scrollY*0.3 + 'px'
+      Horn.style.top = window.scrollY*0.3 - 'px'
+      Dots.style.top = window.scrollY*0.3 + 'px';
+    });
+
   return (
-    <div className='fisrtPanelContainer'>
-      <div className='panelImages'>
-        <img src={dots} alt='PolkaDots'></img>
-        <img src={sayviri} alt='SayviriIMG'></img>
-        <img src={growth} alt='GrowthGraph'></img>
-      </div>
-      
+      <div className='fisrtPanelContainer'>
+
       <div className='leftSidePanel'>
         <div>
           <h1>გაზარდე შენი <h1 className='tealtext'>WuWu</h1> სწორი რეკლამის ვიზუალებით</h1>
@@ -40,7 +52,12 @@ function Firstpanel() {
         </div>
       
       </div>
-    
+
+      <div className='panelImages'>
+        <img src={dots} alt='PolkaDots' className='panelImage'></img>
+        <img src={sayviri} alt='SayviriIMG' className='panelImage'></img>
+        <img src={growth} alt='GrowthGraph' className='panelImage'></img>
+      </div>
     
     </div>
   )

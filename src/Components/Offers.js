@@ -1,12 +1,17 @@
 import React from 'react'
 import './Offers.css'
 import squigglydiggly from './xuwu.webp'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 
 
 function Offers() {
 
-
+    useEffect(()=> {
+        AOS.init({duration: 1000})
+    }, [])
 
 
   return (
@@ -14,12 +19,12 @@ function Offers() {
         <p>ჩვენი სერვისები</p>
         <br></br>
         <div className='offerDialogDiv'>
-            <h1>გთავაზობთ ყველაფერს, რაც სჭირდება შენ ონლაინ ბიზნესს</h1>
+            <h1 data-aos='fade-right'>გთავაზობთ ყველაფერს, რაც სჭირდება შენ ონლაინ ბიზნესს</h1>
             <img src={squigglydiggly}/>
         </div >
 
         
-        <div className='offerItemsDiv'>
+        <div className='offerItemsDiv' data-aos='fade-down'>
                 <div className='offerItem'>
                     <svg>
                         <circle cx='50' cy='50' r='30'></circle>
