@@ -1,0 +1,65 @@
+.mainContactContainer h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.inputContainer input{
+    height: 40px;
+    width: 60vw;
+    margin-top: 10px;
+}
+#messageinput{
+    height: 100px;
+    
+}
+#submitInput{
+    width: 60vw;
+}
+.inputContainer button{
+    width: 60.5vw;
+    height: 5vh;
+    border-radius: 100px;
+    border: 0;
+    background-color: #1D95A4;
+    color: white;
+    transition: 400ms;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.inputContainer button:hover{
+    background-color: purple;
+    padding: 18px 40px;
+
+}
+.contactUsDiv{
+    background-color: #02434F;
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+    transform: translateX(-20%);
+    margin-top: 5vh;
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+    color: white;
+}
+.contactUsDiv img{
+    max-width: 200px;
+    max-height: 150px;
+}
+.findUs{
+    text-align: center;
+}
+.findUs a{
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+.findUs a:hover{
+    color: rgb(240, 60, 240);
+}

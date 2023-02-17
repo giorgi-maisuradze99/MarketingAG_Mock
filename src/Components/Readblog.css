@@ -1,0 +1,41 @@
+.readBlogContainer{
+    position: relative;
+    left: 0;
+    background-color: teal;
+    width: 100vw;
+    height: 35vh;
+    text-align: center;
+    transform: translateX(-20%);
+}
+.readBlogContainer .registerForMeetingButton{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 15vw;
+    transform: translate(-50%);
+    border-radius: 100px;
+    border: 0;
+    background-color: #1D95A4;
+    color: white;
+    transition: 400ms;
+    cursor: pointer;
+}
+.readBlogContainer .registerForMeetingButton:hover{
+    background-color: purple;
+    padding: 18px 40px;
+}
+.readBlogContainer a{
+    color: white;
+    width: 30vw;
+    margin-bottom: 100px;
+}
+.readBlogSuggestions {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+

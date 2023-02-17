@@ -1,0 +1,54 @@
+.tealtext{
+    color: teal;
+    line-height: 0;
+}
+.fisrtPanelContainer{
+    position: relative;
+    left: 0;
+    width: 30vw;
+}
+.fisrtPanelContainer h1{
+    font-size: 3rem;
+    text-align: left;
+    font-weight: 400;
+    line-height: 3rem;
+}
+p{
+    text-align: left;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+.registerForMeetingButton{
+    padding: 15px 30px;
+    border-radius: 300px;
+    border: 0;
+    background-color: #1D95A4;
+    color: white;
+    transition: 400ms;
+}
+.registerForMeetingButton:hover{
+    background-color: purple;
+    padding: 18px 40px;
+}
+.leftSidePanel p{
+    width: 30vw;
+    font-weight: 300;
+}
+.leftSidePanel svg{
+    left: 0;
+    stroke-width: 0.3px;
+    width: 600px;
+    margin-top: 30px;
+    height: 10px;
+}
+.ratingDivContainer{
+    display: flex;
+}
+.ratingDiv{
+    width: 300px;
+}
+.ratingDiv h2{
+    font-size: 2.5rem;
+    font-weight:bolder;
+    line-height: 0px;
+}

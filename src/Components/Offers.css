@@ -1,0 +1,70 @@
+.mainOffersPanel{
+    padding-bottom: 20vh;
+
+}
+.mainOffersPanel p{
+    float: left;
+    color: teal;
+}
+.mainOffersPanel h1{
+    font-size: 4rem;
+    font-weight: 500;
+    width: 35vw;
+    margin-top: 0;
+    line-height: 4.5rem;
+}
+.offerDialogDiv{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.offerDialogDiv img{
+    max-width: 300px;
+    max-height: 200px;
+    position: absolute;
+    right: 0;
+}
+
+.offerItemsDiv{
+    display: grid;
+    justify-content: space-evenly;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 300px);
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.offerItem{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border: 2px rgb(231, 231, 231) solid;
+    border-radius: 15px;
+    transition: 500ms;
+}
+
+.offerItem:hover{
+    border: 2px teal solid;
+}
+
+.offerItem svg{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.offerItem a{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0px;
+    background-color: rgb(230, 230, 230);
+    padding: 20px 30px;
+    border-radius: 50% 50% 0px 0px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.offerItem a:hover{
+    background-color: teal;
+}
+

@@ -1,0 +1,33 @@
+.advantagesContainer h1{
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: center;
+}
+    
+.advantagesPanel h1{
+    margin-top: 30vh;
+    text-align: center;
+    margin-bottom: 10vh;
+    font-weight: 400;
+}
+
+.advantagesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.singleAdvantageDiv{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 10vh;
+
+}
+.singleAdvantageDiv svg{
+    width: 100px;
+    height: 100px;
+}
+
+
