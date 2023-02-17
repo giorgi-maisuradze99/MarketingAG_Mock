@@ -6,14 +6,3 @@
   left: 50%;
   transform: translate(-50%);
 }
-.hidden{
-    opacity: 0;
-    transition: 1s;
-
-
-}
-.show{
-    opacity: 1;
-
-
-}

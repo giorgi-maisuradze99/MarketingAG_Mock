@@ -1,9 +1,17 @@
 import React from 'react'
 import './Firstpanel.css'
+import dots from './Dots.webp'
+import sayviri from './sayviri.webp'
+import growth from './growth.webp'
 
 function Firstpanel() {
   return (
     <div className='fisrtPanelContainer'>
+      <div className='panelImages'>
+        <img src={dots} alt='PolkaDots'></img>
+        <img src={sayviri} alt='SayviriIMG'></img>
+        <img src={growth} alt='GrowthGraph'></img>
+      </div>
       
       <div className='leftSidePanel'>
         <div>
