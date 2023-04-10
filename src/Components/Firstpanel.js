@@ -12,7 +12,7 @@ function Firstpanel() {
     const Horn = document.getElementsByClassName('panelImage')[1];
     const Growth = document.getElementsByClassName('panelImage')[2];
     
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', ()=> {
       Growth.style.top = window.scrollY*0.3 + 'px'
       Horn.style.top = window.scrollY*0.3 - 'px';
       Dots.style.top = window.scrollY*0.3 + 'px';
@@ -23,7 +23,7 @@ function Firstpanel() {
 
       <div className='leftSidePanel'>
         <div>
-          <h1>გაზარდე შენი <h1 className='tealtext'>WuWu</h1> სწორი რეკლამის ვიზუალებით</h1>
+          <h1>გაზარდე შენი <h1 className='tealtext'>ბიზნესი</h1> სწორი რეკლამის ვიზუალებით</h1>
         </div>
         
         <p>გაინტერესებს რამდენად მნიშვნელოვანია სარეკლამო
