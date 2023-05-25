@@ -1,1 +1,1 @@
-https://sweet-moonbeam-9b57d7.netlify.app
+https://inspiring-faun-7ae08a.netlify.app
